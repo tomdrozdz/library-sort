@@ -102,7 +102,7 @@ public class LibrarySort<T> {
 			
 			mid = (left+right)/2;
 			
-			// Finding 
+			// Finding middle value in case there isn't one
 			if(gapped[mid] == null) {
 				
 				int tmp = mid + 1;
